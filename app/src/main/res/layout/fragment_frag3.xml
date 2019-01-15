@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.karan.dailynotes.Frag3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/edd1"
+        android:layout_width="335dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/note_view_toolbar_background"
+        android:ems="10"
+        android:hint="Enter Note here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edd2"
+        android:layout_width="335dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/note_view_toolbar_background2"
+        android:ems="10"
+        android:hint="Enter Note here"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/edd3"
+        android:layout_width="335dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/note_view_toolbar_background"
+        android:ems="10"
+        android:hint="Enter Note here"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/edd4"
+        android:layout_width="335dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/note_view_toolbar_background2"
+        android:ems="10"
+        android:hint="Enter Note here"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+
+        <Button
+            android:id="@+id/butSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/butNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:text="New Note" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ttt"
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+
+</LinearLayout>
